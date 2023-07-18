@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.logo-1{
+    display: inline-block;
+    width: 500px;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.logo-1 img{
+    width:37px;
+    height:auto;
+    margin: 10px;
+}
+
+.social-1{
+    display: inline-block;
+    width: 500px;
+    text-align: right;
+    vertical-align: bottom;
+}
+
+.social-1 a{
+    display: inline-block;
+    width: 25px;
+    height: auto;
+    margin: 17px;
+    text-align: right;
+}
+
+.logo-2{
+    vertical-align: bottom;
+    padding: 15px 0px;
+} 
+
+.logo-2 img{
+    width: 37px;
+    height:auto;
+    text-align: center;
+}
+
+.social-2{
+    display: inline-block;
+    width: 500px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.social-2 a{
+    display: inline-block;
+    margin: 0px 15px;
+    height: auto;
+}
+
+.social-2 a img{
+    width: 25px;
+}
+
+.first-header{
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 0px;
+}
+.first-section{
+    background-color: #FAC960;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.paragraugh-1{
+    color: #8A6D2F;
+    font-size: 44px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.email form input {
+    color: #999;
+    border: 0px;
+    border-radius: 2px 0px 0px 2px;
+    height: 50px;
+    width: 560px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 30px;
+    margin: 1px;
+}
+
+button{
+    color: #FFF;
+    background-color: #A8863D;
+    border-radius: 0px 2px 2px 0px;
+    border: 0px;
+    height: 50px;
+    width: 240px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin: 1px;
+}
+
+.second-section{
+    background-color: #F2F2F2;
+    text-align: center;
+    padding: 50px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.paragraugh-2{
+    font-size: 37px;
+    color: rgba(0, 0, 0, 0.56);
+}
+
+.paragraugh-3{
+    font-size: 23px;
+    color: rgba(0, 0, 0, 0.40);
+}
+
+.infinity{
+    width: 187px;
+    height: auto;
+}
+
+.third-section{
+    background-color: #FFF;
+    text-align: center;
+    padding: 50px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fourth-section{
+    background-color: #FAC960;
+    text-align: center;
+    padding: 40px 0px;
+    
+}
+
+.paragraugh-4{
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.40);
+    font-size: 22px;
+
+}
+.text form input{
+    height: auto;
+    width: 61px;
+    border-radius: 3px;
+    border: 0px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: #F2F2F2;
+    padding: 40px;
+    font-size: 0px;
+}
+
+
