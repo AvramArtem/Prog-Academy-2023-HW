@@ -119,9 +119,12 @@ button{
 .paragraugh-3{
     font-size: 23px;
     color: rgba(0, 0, 0, 0.40);
+    width: 800px;
+    margin: 50px auto;
 }
 
 .infinity{
+    margin: 50px;
     width: 187px;
     height: auto;
 }

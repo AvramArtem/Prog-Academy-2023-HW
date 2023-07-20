@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+nav{
+    text-align: center;
+}
+
+.logo{
+    display: inline-block;
+    margin: 0px 20px;
+    vertical-align:middle;
+}
+
+.logo img{
+    width: 88px;
+    height: auto;
+}
+
+.vertical-line{
+    display: inline-block;
+    height: 14px;
+    background-color: gray;
+    width: 1px;
+    vertical-align: middle;
+}
+
+.social{
+    display: inline-block;
+    margin:31px;
+    width: 400px;
+    text-align: left;
+}
+
+.social img{
+    width: 109px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.menu{
+    display: inline-block;
+    width: 681px;
+    text-align: right;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #363636;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    margin: 0px 30px;
+}
+
+.paragraugh-1{
+    width: 780px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 100px auto 20px auto;
+    font-size: 46px;
+}
+
+.paragraugh-2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #9B9B9B;
+    margin: 30px 0px;
+}
+.paragraugh-2 span{
+    color: #4A4A4A;
+}
+
+.winter{
+    text-align: center;
+}
+
+.winter img{
+    height: auto;
+    width: 1287px;
+    margin: 50px 0px;
+}
+
+.paragraugh-3{
+    margin: auto;
+    text-align: justify;
+    padding: 25px 400px;
+}
+
+.paragraugh-3 p{
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+    color: #4A4A4A;
+    line-height: 30px;
+}
+
+.paragraugh-3 h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lorem{
+    background-color: #FAFAFA;
+    width: 1000px;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Merriweather', serif;
+}
+
+.lorem h1{
+    font-style: italic;
+    font-size: 21px;
+    padding: 80px 0px 0px 0px;
+}
+
+.lorem p{
+    color: #9B9B9B;
+    font-size: 12px;
+}
+
+.comments{
+text-align: center;
+}
+
+.comments hr{
+    border-radius: 4.5px;
+    width: 1050px;
+
+}
+.comments p{
+    display: inline-block;
+    margin: 75px 175px;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    color: #4A4A4A;
+}
+
+.show-comments{
+    text-align: center;
+}
+
+button{
+    border-radius: 50px;
+    border: 1px solid #E9E9E9;
+    background-color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    height: 60px;
+    width: 360px;
+    font-size: 14px;
+    color: #4A4A4A;
+}
+
+.nav-art{
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.nav-art a{
+    text-decoration: none;
+    color: #1E1E1E;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin:auto 350px auto 50px;
+}
+
+ .nav-art a:nth-child(2){
+    margin:auto 50px auto 350px; 
+}
+
+.other{
+    text-align: center;
+    background-color: #FAFAFA;
+    padding: 100px 0px;
+}
