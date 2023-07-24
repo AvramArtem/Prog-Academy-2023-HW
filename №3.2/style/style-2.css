@@ -123,7 +123,9 @@ nav{
 }
 
 .comments{
-text-align: center;
+
+    width: 1200px;
+    margin: 0px auto;
 }
 
 .comments hr{
@@ -132,11 +134,17 @@ text-align: center;
 
 }
 .comments p{
+    text-align: left;
     display: inline-block;
-    margin: 75px 175px;
+    width: 550px;
+    padding: 50px;
     font-family: 'Merriweather', serif;
     font-size: 16px;
     color: #4A4A4A;
+}
+
+.comments p:nth-child(3){
+    text-align: right;
 }
 
 .show-comments{
