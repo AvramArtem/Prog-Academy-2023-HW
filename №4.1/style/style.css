@@ -44,7 +44,6 @@ body{
     width: 512px;
     height: 512px;
     position: relative;
-    background-color: blue;
     left: 550px;
     z-index: 1;
 }
@@ -52,15 +51,20 @@ body{
 .yellow-2{
     position: absolute;
     width: 512px;
-    height: 256px;
+    height: 512px;
     background-color: yellow;
-    top: 256px;
+}
+
+.blue-1{
+    position: absolute;
+    z-index: 1;
 }
 
 .sign-1{
     position: absolute;
     top: 144px;
     left: 55px;
+    z-index: 2;
 }
 
 .sq-3{
@@ -81,14 +85,6 @@ body{
     top: 34px;
     left: 34px;
     overflow: hidden;
-}
-
-.blue{
-    position: absolute;
-    width: 444px;
-    height: 444px;
-    background-color: blue;
-    bottom: 222px;
 }
 
 .sign-2{
