@@ -52,7 +52,7 @@ body{
     position: absolute;
     width: 512px;
     height: 512px;
-    background-color: yellow;
+    background-color: #FFCE22;
 }
 
 .blue-1{
@@ -72,13 +72,15 @@ body{
     height: 512px;
     position: relative;
     left: 1000px;
-    background-color: gray;
+    background-color: #C4C4C4;
     top: -72px;
+    border-top: 2px solid #2137FC;
+    border-bottom: 2px solid #2137FC;
 }
 
 .circle{
     position: absolute;
-    background-color: yellow;
+    background-color: #FFCE22;
     width: 444px;
     height: 444px;
     border-radius: 444px;
