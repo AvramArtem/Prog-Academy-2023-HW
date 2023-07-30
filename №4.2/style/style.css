@@ -10,11 +10,12 @@ body{
 
 .wrapper{
     width: 1500px;
+    margin: 0 auto;
 }
 
 .logo{
     float: left;
-    margin: 40px;
+    margin: 40px 0px;
 }
 .rectangle-1{
     display: inline-block;
@@ -75,7 +76,7 @@ body{
 
 .tx-bt{
     float: left;
-    margin: 100px 0px 0px 40px;
+    margin: 100px 0px;
 }
 
 .text-1{

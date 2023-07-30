@@ -4,6 +4,7 @@
 
 body{
     margin: 0px;
+    background-color: #C4C4C4;
 }
 
 .sq-1{
@@ -72,7 +73,7 @@ body{
     height: 512px;
     position: relative;
     left: 1000px;
-    background-color: #C4C4C4;
+    background-color: #FFF;
     top: -72px;
     border-top: 2px solid #2137FC;
     border-bottom: 2px solid #2137FC;
