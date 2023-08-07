@@ -7,7 +7,7 @@
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    min-height: 100%;
+    min-height: 100vh;
     margin: 0 auto;
     padding: 50px 50px ;
     line-height: normal;
@@ -31,7 +31,7 @@
 }
 @font-face {
     font-family: "Kyiv Type Titling";
-    src: url("kyivtypetitling/Kyiv*TypeTitling.woff2") format("woff2");
+    src: url("kyivtypetitling/KyivTypeTitling.woff2") format("woff2");
 }
 .date{
     color: #C8C8C8;
