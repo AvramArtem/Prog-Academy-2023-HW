@@ -208,7 +208,7 @@
     .menu{
         padding-top: 40px;
     }
-    .food-btn{
+    .food-btn, .block-btn{
         width: 300px;
         height: 300px;
     }
