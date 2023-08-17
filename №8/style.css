@@ -67,9 +67,11 @@
 }
 .menu-food{
     margin: 40px 0px;
-    gap: 30px;
 }
 .block-btn {
+    width: 350px;
+    height: 350px;
+    margin: 5px;
     position: relative;
     border: 9px solid #81613B;
     border-radius: 200px;
@@ -94,6 +96,7 @@
     z-index: -1;
     background: none;
     bottom:-18px;
+    left: 7px;
     width: 100%;
     padding: 35px 0px;
     transition: all 1s ease;
