@@ -1,0 +1,553 @@
+:root{
+    --font-popins:'Poppins', sans-serif;
+    --font-abhaya:'Abhaya Libre', serif;
+    --font-noto:'Noto Serif', serif;
+    --font-9:9px;
+    --font-13:13px;
+    --font-18:18px;
+    --font-24:24px;
+    --font-30:30px;
+    --font-40:40px;
+    --font-60:60px;
+    --black-color:#3D3935;
+    --white-color:#FFF;
+    --orange-color:#F39200;
+    --light-brown-color:#F4ECE8;
+}
+.block-90{
+    width: 90%;
+    margin: 0 auto;
+}
+.menu-header{
+    margin: 10px 0px;
+    list-style: none;
+    font-family: var(--font-popins);
+    font-size: var(--font-13);
+    font-weight: 500;
+    color: var(--black-color);
+}
+.search-circle{
+    color: var(--black-color);
+    font-size: var(--font-18);
+}
+.grey-line{
+    width: 2px;
+    height: 60px;
+    background: #F2F2F2;
+}
+.logo, .menu, .search{
+    padding: 10px 0px;
+}
+.section-home-1{
+    background-image: url(../№9/img/background-flowers.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-text{
+    color: var(--white-color);
+    margin-bottom: 20px;
+}
+.header-text h1{
+    font-family: var(--font-abhaya);
+    font-size: var(--font-60);
+}
+.header-text h6{
+    font-family: var(--font-popins);
+    font-weight: 500;
+    font-size: var(--font-13);
+}
+.head-photo-text{
+    background-color: var(--white-color);
+    border-radius: 4px;
+    margin: 20px 0px;
+    font-family: var(--font-popins);
+}
+.head-photo{
+    border-radius: 2px;
+    margin: 5px;
+}
+.head-text{
+    margin: 5px 10px 0px 10px;
+}
+.head-text h1{
+    color: var(--orange-color);
+    font-size: var(--font-9);
+    font-weight: 600;
+}
+.head-text p{
+    color: var(--black-color);
+    font-size: var(--font-18);
+    font-weight: 500;
+}
+.section-home-2, 
+.section-home-4, 
+.section-home-6,
+.section-home-8{
+    padding: 30px 0px 80px 0px;
+    background: var(--light-brown-color);
+}
+.head-section-1{
+    border-bottom: 1px solid var(--black-color);
+    color: var(--black-color);
+}
+.head-section-1 h1{
+    font-family: var(--font-abhaya);
+    font-size: var(--font-60);
+    font-weight: 700;
+}
+.head-section-1 h2{
+    font-family: var(--font-popins);
+    font-size: var(--font-13);
+    font-weight: 700;
+}
+.bigger-block{
+    color: var(--black-color);
+    border-radius: 4px;
+    background: var(--white-color);
+    padding: 5px;
+}
+.bigger-block img{
+    width: 100%;
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+.bigger-block h5{
+    color: var(--orange-color);
+    font-size: var(--font-13);
+    font-family: var(--font-popins);
+    font-weight: 500;
+}
+.bigger-block h1{
+    font-size: var(--font-40);
+    font-family: var(--font-abhaya);
+    font-weight: 700;
+    margin: 15px 0px 50px 0px;
+    text-align: center;
+}
+.bigger-block h6{
+    font-family: var(--font-noto);
+    font-weight: 400;
+    font-size: var(--font-13);
+}
+.bigger-block h6 span{
+    color: var(--orange-color);
+}
+.btn-universal{
+    color: var(--black-color);
+    width: 100%;
+    border-radius: 4px;
+    border: 1.5px solid var(--black-color);
+    background: var(--white-color);
+    transition: 0.5s;
+    margin-top: 30px;
+}
+.btn-universal:hover{
+    color: var(--white-color);
+    background: var(--black-color);
+}
+.small-block{
+    background: var(--white-color);
+    border-radius: 4px;
+    padding: 5px;
+}
+.news-photo img{
+    border-radius: 2px;
+    padding-right: 5px;
+}
+.news-text h3{
+    color: var(--orange-color);
+    font-size: var(--font-13);
+    font-family: var(--font-popins);
+    font-weight: 500;
+}
+.news-text h1{
+    color: var(--black-color);
+    font-size: var(--font-18);
+    font-family: var(--font-popins);
+    font-weight: 500;
+    margin: 15px 0px 25px 0px;
+}
+.news-text h2{
+    color: var(--black-color);
+    font-size: var(--font-13);
+    font-family: var(--font-noto);
+    font-weight: 400;
+}
+.news-text h4{
+    font-family: var(--font-noto);
+    font-weight: 400;
+    font-size: var(--font-9);
+    margin-top: 75px;
+}
+.news-text h4 span{
+    color: var(--orange-color);
+}
+.section-home-3{
+    font-family: var(--font-popins);
+    font-weight: 500;
+}
+.section-home-3 .block-90, 
+.section-home-5 .block-90,
+.section-home-7 .block-90{
+    background-color: var(--light-brown-color);
+}
+.block-80{
+    width: 80%;
+    margin: 85px auto;
+    padding: 45px 0px;
+}
+.head-section-2{
+    border-bottom: 1px solid var(--black-color);
+    font-size: var(--font-24);
+}
+.mondi-icons{
+    margin-top: 125px;
+}
+.block-icon{
+    position: relative;
+    background: var(--white-color);
+    font-size: var(--font-13);
+    width: 193px;
+    height: 136px;
+    margin-bottom: 100px;
+}
+.icon{
+    position: absolute;
+    top: -60px;
+    background: var(--black-color);
+    border-radius: 200px;
+    width: 122px;
+    height: 122px;
+}
+.icon svg{
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    left: 26px;
+}
+.carta svg{
+    left: 33px;
+}
+.decorazione svg, .bijoux svg{
+    left: 1px;
+    top: -2px;
+}
+.block-icon p{
+    margin-top: 80px;
+}
+.medium-boxes{
+    margin-top: 20px;
+}
+.medium-block{
+    background: var(--white-color);
+    border-radius: 4px;
+    color: var(--black-color);
+}
+.medium-block img{
+    width: 100%;
+    border-radius: 2px;
+    padding: 5px;
+}
+.text-btn-block{
+    padding: 20px 20px;
+}
+.text-initials h1, .text-initials h2{
+    font-family: var(--font-popins);
+    font-size: var(--font-13);
+    font-weight: 500;
+}
+.text-initials h2 span{
+    color: var(--orange-color);
+}
+.medium-block p{
+    font-family: var(--font-abhaya);
+    font-size: var(--font-30);
+    font-weight: 700;
+}
+.block-80 .head-section-1 h1{
+    font-size: var(--font-24);
+}
+.sponsor-boxes{
+    position: relative;
+    padding: 25px 0px 100px 0px;
+}
+.left-btn{
+    width: 1%;
+    position: absolute;
+    top: 32%;
+    right: 103%;
+    border: none;
+    background: none;
+    font-size: 30px;
+}
+.sponsor{
+    width: 194px;
+    height: 192px;
+    background: var(--white-color);
+    border-radius: 4px;
+    font-family: var(--font-popins);
+    font-size: var(--font-13);
+    font-weight: 400;
+}
+.right-btn{
+    width: 1%;
+    position: absolute;
+    top: 32%;
+    left: 101%;
+    border: none;
+    background: none;
+    font-size: 30px;
+}
+.vieni{
+    background: var(--white-color);
+    border-radius: 4px;
+    padding: 80px;
+    color: var(--black-color);
+}
+.vieni h1{
+    font-family: var(--font-abhaya);
+    font-size: var(--font-60);
+    font-weight: 700;
+}
+.vieni h2{
+    font-family: var(--font-popins);
+    font-size: var(--font-24);
+    font-weight: 500;
+    padding: 20px 0px 10px 0px;
+}
+.vieni h3{
+    font-family: var(--font-noto);
+    font-size: var(--font-13);
+    font-weight: 400;
+}
+.blue-orange-boxes{
+    color: var(--white-color);
+}
+.blue-block{
+    background: #059EB2;
+}
+.orange-block{
+    background: var(--orange-color);
+}
+.color-block{
+    border-radius: 4px;
+    padding: 60px 0px;
+}
+.white-square{
+    width: 124px;
+    height: 132px;
+    background: var(--white-color);
+    margin-left: 40px;
+}
+.color-text h1{
+    font-family: var(--font-abhaya);
+    font-size: var(--font-40);
+    font-weight: 700;
+}
+.color-text h2{
+    font-family: var(--font-popins);
+    font-size: var(--font-24);
+    font-weight: 500;
+}
+.color-text .btn-universal{
+    width: 130px;
+    margin-top: 0px;
+    background: none;
+    color: var(--white-color);
+    border: 1.5px solid var(--white-color);
+}
+.color-text .btn-universal:hover{
+    background: var(--white-color);
+    color: var(--black-color);
+}
+.section-home-7{
+    color: var(--black-color);
+}
+.la-nostra h1{
+    font-family: var(--font-abhaya);
+    font-size: var(--font-60);
+    font-weight: 700;
+}
+.la-nostra h2{
+    font-family: var(--font-popins);
+    font-size: var(--font-24);
+    font-weight: 500;
+}
+.personal-info{
+    font-family: var(--font-popins);
+    font-size: var(--font-13);
+}
+.personal-info .btn-universal{
+    background: none;
+    width: 200px;
+}
+.personal-info .btn-universal:hover{
+    background: var(--black-color);
+}
+.name-mail label{
+    margin-bottom: 5px;
+}
+.name-mail input{
+    color: var(--black-color);
+    border-radius: 4px;
+    border: 1px solid var(--black-color);
+    background: none;
+    margin-bottom: 20px;
+    width: 75%;
+}
+.vote-text{
+    margin-top: 20px;
+    font-size: var(--font-9);
+}
+.vote-text p{
+    font-family: var(--font-noto);
+}
+.vote input[type="radio"]{
+    content: "";
+    color: var(--black-color);
+    background: none;
+}
+.logo-social{
+    position: relative;
+}
+.social::after{
+    position: absolute;
+    display: block;
+    clear: both;
+    content: " ";
+    border-bottom: 1px solid black;
+    width: 75%;
+    top: 45px;
+}
+.social a{
+    font-size: var(--font-24);
+    color: var(--black-color);
+    text-decoration: none;
+    margin: 5px 10px;
+}
+.menu-option h1, .menu-option a{
+    font-family: var(--font-popins);
+    font-weight: 500;
+    font-size: var(--font-18);
+}
+.menu-option h1{
+    margin-top: 20px;
+}
+.menu-option a{
+    font-size: var(--font-13);
+    text-decoration: none;
+    color: var(--black-color);
+    margin: 5px 0px;
+}
+.menu-open-wide{
+    border-bottom: 1px solid var(--black-color);
+    margin: 35px 0px;
+    padding-bottom: 50px;
+}
+.mini-sh-7 .la-nostra h1{
+    font-size: var(--font-24);
+}
+.mini-sh-7 .la-nostra h2{
+    font-size: var(--font-13);
+}
+.mini-sh-7 .name-mail{
+    font-size: var(--font-13);
+}
+.mini-sh-7 .vote-text p{
+    margin-bottom: 0px;
+}
+.mini-sh-7 .vote-text .vote{
+    margin: 3px 0px;
+    font-family: var(--font-popins);
+    font-size: var(--font-9);
+}
+.mini-sh-7 .vote-text .btn-universal{
+    width: 150px;
+    margin-top: 0px;
+    background: none;
+}
+.mini-sh-7 .vote-text .btn-universal:hover{
+    background: var(--black-color);
+}
+.white-footer{
+    background: var(--white-color);
+    font-family: var(--font-popins);
+    font-size: var(--font-13);
+    padding: 25px 0px;
+}
+.grey-footer{
+    padding: 20px 0px;
+    background: #F2F2F2;
+    font-family: var(--font-popins);
+    font-size: var(--font-13);
+    width: 100%;
+}
+.right-wf img{
+    margin: 20px 0px;
+    width: 75%;
+}
+@media (max-width:1200px) {
+    .white-square{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:992px) {
+    .social::after{
+        width: 68%;
+    }
+}
+@media (max-width:768px) {
+    .header-text h1{
+        font-size: var(--font-40);
+        margin-top: 50px;
+    }
+    .head-section-1 h1{
+        font-size: var(--font-40);
+    }
+    .sponsor-boxes{
+        padding-top: 75px;
+    }
+    .left-btn{
+        left: 47.5%;
+        top: 5px;
+        transform: rotate(90deg);
+    }
+    .right-btn{
+        left: 47.5%;
+        top: 700px;
+        transform: rotate(90deg);
+    }
+    .vieni{
+        padding: 40px;
+    }
+    .la-nostra h1{
+        font-size: var(--font-40);
+    }
+    .la-nostra h2{
+        font-size: var(--font-18);
+    }
+    .social::after{
+        top: 150px;
+        width: 95%;
+    }
+}
+
+@media (max-width:576px) {
+    .left-btn, .right-btn{
+        left: 46.5%;
+    }
+}
+
+@media (max-width:533px) {
+    .right-btn{
+        top: 1100px;
+    }
+}
+
+
+
+
+
